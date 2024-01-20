@@ -1,0 +1,40 @@
+{
+	"name": "node-auth0",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./lib/index.js",
+	"scripts": {
+		"dev": "nodemon",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AdityaKulkarni/nodejs-auth0.git"
+	},
+	"keywords": [
+		"NodeJS",
+		"Auth0",
+		"Authentication"
+	],
+	"author": "Aditya Kulkarni",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/AdityaKulkarni/nodejs-auth0/issues"
+	},
+	"homepage": "https://github.com/AdityaKulkarni/nodejs-auth0#readme",
+	"dependencies": {
+		"body-parser": "^1.20.2",
+		"cors": "^2.8.5",
+		"express": "^4.18.2",
+		"express-oauth2-jwt-bearer": "^1.6.0"
+	},
+	"devDependencies": {
+		"@tsconfig/node20": "^20.1.2",
+		"@types/body-parser": "^1.19.5",
+		"@types/cors": "^2.8.17",
+		"@types/express": "^4.17.21",
+		"@types/node": "^20.11.5",
+		"dotenv": "^16.3.2",
+		"nodemon": "^3.0.3"
+	}
+}
